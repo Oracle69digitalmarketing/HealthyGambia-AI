@@ -198,3 +198,72 @@ WHO / NGOs: Field validation and adoption pipeline
 -   **GENIE-AI Health SDK:** Create and release an SDK for developers to build on the platform.
 -   **Health Data Commons:** Launch a Health Data Commons initiative under the ITU × IEEE umbrella.
 -   **Speech-to-Text Integration:** *Already implemented as an accessibility stretch goal in the MVP.*
+
+
+---
+
+## How to Run This Application
+
+These instructions will guide you through running the application on your local machine for development and testing.
+
+### Prerequisites
+
+-   **Docker:** You must have Docker installed and running on your machine.
+-   **Node.js & npm:** You need a recent version of Node.js and npm to run the frontend.
+-   **Git:** You will need Git to clone the repository.
+
+### Step 1: Clone the Repository
+
+First, clone the project to your local machine:
+
+```bash
+git clone <repository-url>
+cd <repository-directory>
+```
+
+### Step 2: Configure the Backend
+
+The backend requires an API key for the AI service.
+
+1.  **Create an environment file:**
+    Navigate to the `backend` directory and create a new file named `.env`.
+
+2.  **Add your API key:**
+    Open the `.env` file and add your Google Gemini API key like this:
+    ```
+    API_KEY="YOUR_API_KEY_HERE"
+    ```
+
+### Step 3: Build and Run the Backend with Docker
+
+The backend is designed to run in a Docker container.
+
+1.  **Build the Docker image:**
+    From the root directory of the project, run the following command:
+    ```bash
+    docker build -t healthygambia-ai-backend -f backend/Dockerfile .
+    ```
+
+2.  **Run the Docker container:**
+    Once the image is built, run it with:
+    ```bash
+    docker run -d -p 8000:8000 --env-file backend/.env healthygambia-ai-backend
+    ```
+    This command runs the container in detached mode (`-d`), maps port 8000 to your local machine, and loads the environment variables from the `.env` file. The backend API will be accessible at `http://localhost:8000`.
+
+### Step 4: Run the Frontend
+
+The frontend is a React application that runs with Vite.
+
+1.  **Install dependencies:**
+    In the root directory of the project, run:
+    ```bash
+    npm install
+    ```
+
+2.  **Start the development server:**
+    After the installation is complete, start the server with:
+    ```bash
+    npm run dev
+    ```
+    The frontend will be accessible at `http://localhost:3000` (or the next available port if 3000 is in use). You can now open this URL in your browser to interact with the application.
