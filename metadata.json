@@ -1,0 +1,7 @@
+{
+  "name": "HealthyGambia AI",
+  "description": "An AI-powered chatbot to prevent and manage non-communicable diseases (NCDs) in The Gambia.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

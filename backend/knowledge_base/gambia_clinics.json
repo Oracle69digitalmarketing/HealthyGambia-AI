@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Edward Francis Small Teaching Hospital",
+    "region": "Greater Banjul Area",
+    "city": "Banjul",
+    "services": ["General Medicine", "Surgery", "Pediatrics", "NCD Clinic"],
+    "contact": "+220 422 8224"
+  },
+  {
+    "name": "Bansang General Hospital",
+    "region": "Central River Region",
+    "city": "Bansang",
+    "services": ["General Medicine", "Maternity", "NCD Screening"],
+    "contact": "+220 567 1234"
+  },
+  {
+    "name": "Farafenni General Hospital",
+    "region": "North Bank Region",
+    "city": "Farafenni",
+    "services": ["General Medicine", "Emergency", "Hypertension Clinic"],
+    "contact": "+220 678 5432"
+  },
+  {
+    "name": "Brikama District Hospital",
+    "region": "West Coast Region",
+    "city": "Brikama",
+    "services": ["General Medicine", "Pediatrics", "Diabetes Clinic"],
+    "contact": "+220 789 4567"
+  },
+  {
+    "name": "Kanifing General Hospital",
+    "region": "Greater Banjul Area",
+    "city": "Kanifing",
+    "services": ["General Medicine", "NCD Clinic", "Health Education"],
+    "contact": "+220 437 5268"
+  }
+]

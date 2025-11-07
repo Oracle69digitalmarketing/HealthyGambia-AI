@@ -1,0 +1,34 @@
+[
+  {
+    "id": "TC-001",
+    "category": "Motivation",
+    "topic": "Health Benefits",
+    "message": "Quitting tobacco is one of the best things you can do for your health. Within 20 minutes, your heart rate drops. Within a year, your risk of a heart attack drops by half!",
+    "keywords": ["quit", "tobacco", "health", "benefit", "heart"],
+    "source": "BHBM mTobaccoCessation Message Library"
+  },
+  {
+    "id": "TC-002",
+    "category": "Craving",
+    "topic": "Coping Strategy",
+    "message": "Feeling a craving? Try the 4 Ds: Delay for 10 minutes, Drink a glass of water, Deep breaths, and Do something else to distract yourself.",
+    "keywords": ["craving", "urge", "cope", "strategy", "distract", "tobacco"],
+    "source": "BHBM mTobaccoCessation Message Library"
+  },
+  {
+    "id": "TC-003",
+    "category": "Support",
+    "topic": "Social Support",
+    "message": "Tell your friends and family about your decision to quit. Their support can make a huge difference in your journey.",
+    "keywords": ["support", "friends", "family", "help", "quit", "tobacco"],
+    "source": "The Gambia Tobacco Cessation Clinical Guideline"
+  },
+  {
+    "id": "TC-004",
+    "category": "Motivation",
+    "topic": "Financial Benefits",
+    "message": "Think about the money you'll save by not buying tobacco. You could use it for your family, your health, or something you've always wanted.",
+    "keywords": ["money", "save", "financial", "benefit", "quit", "tobacco"],
+    "source": "BHBM mTobaccoCessation Message Library"
+  }
+]

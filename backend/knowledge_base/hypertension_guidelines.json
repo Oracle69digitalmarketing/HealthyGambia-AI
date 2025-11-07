@@ -1,0 +1,34 @@
+[
+  {
+    "id": "HYP-001",
+    "category": "Diet",
+    "topic": "Salt Reduction",
+    "guideline": "Reducing daily salt intake to less than 5 grams (about one teaspoon) can significantly lower blood pressure. Avoid processed foods which are often high in sodium.",
+    "keywords": ["salt", "sodium", "diet", "food", "hypertension", "blood pressure"],
+    "source": "WHO Guideline on Sodium Intake for Adults and Children"
+  },
+  {
+    "id": "HYP-002",
+    "category": "Physical Activity",
+    "topic": "Regular Exercise",
+    "guideline": "Aim for at least 150 minutes of moderate-intensity aerobic activity, such as brisk walking, cycling, or dancing, each week.",
+    "keywords": ["exercise", "activity", "walking", "fitness", "hypertension", "physical"],
+    "source": "WHO Global Recommendations on Physical Activity for Health"
+  },
+  {
+    "id": "HYP-003",
+    "category": "Diet",
+    "topic": "Healthy Diet",
+    "guideline": "Eat a balanced diet rich in fruits, vegetables, and whole grains. Limit the intake of foods high in saturated fats, trans fats, and sugar.",
+    "keywords": ["diet", "fruits", "vegetables", "sugar", "fat", "healthy eating"],
+    "source": "The Gambia National Guidelines for NCDs"
+  },
+  {
+    "id": "HYP-004",
+    "category": "Monitoring",
+    "topic": "Blood Pressure Monitoring",
+    "guideline": "Regularly check your blood pressure as advised by a healthcare professional. Keeping a log can help your doctor manage your condition effectively.",
+    "keywords": ["monitoring", "check", "blood pressure", "doctor", "log"],
+    "source": "Hypertension Prevention and Control Manual - The Gambia"
+  }
+]
